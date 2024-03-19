@@ -8,6 +8,13 @@ const config: Config = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    colors: {
+      background: '#110A13',
+      primary: '#CB97DA',
+      secondary: '#75208D',
+      accent: '#C648EA',
+      text: '#F0ECF1'
+    },
     extend: {
       colors: {
         background: '#110A13',

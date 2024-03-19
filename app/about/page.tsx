@@ -7,19 +7,21 @@ export default function About() {
     <main className="flex-1 py-unit-xl">
       <h1
         className="text-text
-                   text-lg mb-unit-md font-bold
+                   text-lg font-bold
                    md:text-2xl md:font-extrabold"
       >
         My Work Experience:
       </h1>
 
-      <ul className="flex flex-col gap-unit-md">
+      <ul className="flex flex-col 
+                     mt-unit-md mb-unit-2xl gap-unit-md
+                     md:mt-unit-lg md:mb-unit-3xl md:gap-unit-lg">
         {workExperienceData.map((experience, index) => (
           <li
             key={index}
-            className="w-full bg-secondary-500/15 rounded-2xl flex flex-col 
-                       p-unit-lg gap-unit-sm
-                       md:p-unit-xl"
+            className="w-full bg-secondary-500/5 rounded-2xl flex flex-col border-primary
+                       p-unit-lg gap-unit-sm border-1 focus:bg-secondary-500/15 active:bg-secondary-500/15
+                       md:p-unit-xl md:border-2 hover:bg-secondary-500/15"
           >
             <h1
               className="text-text 
@@ -77,25 +79,31 @@ export default function About() {
 
       <h1
         className="text-text font-extrabold
-                   text-lg mt-unit-2xl
-                   md:text-2xl md:mb-unit-xl"
+                   text-lg
+                   md:text-2xl"
       >
         My Skills:
       </h1>
 
       <ul className="flex flex-wrap justify-center
-                     gap-unit-md p-unit-md
-                     md:gap-unit-2xl md:p-unit-md">
+                     mt-unit-md mb-unit-2xl gap-unit-md
+                     md:mt-unit-lg md:mb-unit-3xl md:gap-unit-xl">
         {skillsData.map((skill, index) => (
-          <li key={index}>
+          <li 
+            key={index}
+            className="border-primary bg-secondary-500/5 rounded-full flex justify-center items-center
+                       p-unit-md border-1 active:bg-secondary-500/15
+                       md:p-unit-xl md:border-2 hover:bg-secondary-500/15"
+          >
             <div className="flex flex-col justify-center items-center
                             md:gap-unit-sm">
-              <skill.icon className="size-unit-lg text-text
-                              md:size-unit-2xl"/>
+              <skill.icon className="text-text 
+                                     size-unit-md
+                                     md:size-unit-xl"/>
               <p
                 className="text-center text-text
                            hidden
-                           md:font-medium md:block"
+                           md:font-medium"
               >
                 {skill.skillName}
               </p>
@@ -106,16 +114,15 @@ export default function About() {
 
       <h1
         className="text-text font-extrabold
-                   text-lg mt-unit-2xl
-                   md:text-2xl md:mb-unit-xl"
+                   text-lg
+                   md:text-2xl"
       >
         My Activity:
       </h1>
-      <div
-        className=""
-      >
+      <div>
 
       </div>
+      <img src="https://ghchart.rshah.org/c648ea/jonn-L" alt="github contributions" />
     </main>
   )
 }
