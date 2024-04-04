@@ -1,21 +1,23 @@
-export default function Home() {
-  return (
-    <main className="flex-1 flex flex-col justify-center items-center">
-      <h1
-        className="text-text font-bold
-					           text-4xl
-										 md:text-7xl"
-      >
-        Jon Lumi
-      </h1>
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Navigator from "./components/Navigator";
+import { getAllRepoData } from "./functions/getRepoData";
 
-      <p
-        className="text-primary 
-										 text-base
-										 md:text-lg"
-      >
-        Computer Science Student
-      </p>
-    </main>
+export default async function App() {
+  const allReposData = await getAllRepoData();
+  const pinnedRepos = allReposData[0];
+  const otherRepos = allReposData[1];
+
+  return (
+    <div className="flex-1 flex flex-col">
+      <Navigator>
+        <Home/>
+        <About/>
+        <Projects pinnedRepos={pinnedRepos} otherRepos={otherRepos}/>
+        <Contact/>
+      </Navigator>
+    </div>
   )
 }

@@ -1,10 +1,12 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { socialLinks } from "../data";
 
 export default function Footer() {
 	return (
-		<div className="flex justify-between w-full items-center">
+		<div className="flex justify-between w-full items-center
+										px-unit-md pb-unit-xs">
 			<p 
 				className="text-text opacity-80 
 									 text-xs
@@ -17,21 +19,21 @@ export default function Footer() {
 										 md:gap-unit-md
 										 ">
 				<li>
-					<button>
+					<a href={socialLinks.githubUrl} target="_blank">
 						<FaGithub className="text-primary md:size-unit-xl"/>
-					</button>
+					</a>
 				</li>
 
 				<li>
-					<button>
+					<a href={socialLinks.linkedInUrl} target="_blank">
 						<FaLinkedin className="text-primary md:size-unit-xl"/>
-					</button>
+					</a>
 				</li>
 
 				<li>
-					<button>
+					<a href={socialLinks.email} target="_blank">
 						<MdEmail className="text-primary md:size-unit-xl"/>
-					</button>
+					</a>
 				</li>
 			</ul>
 		</div>
