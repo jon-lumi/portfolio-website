@@ -11,10 +11,10 @@ export default function Projects({ pinnedRepos, otherRepos }: {
 
   function handleShowText() {
     if (showText === "Show More") {
-      setShowText("SHow Less");
+      setShowText("Show Less");
       setShowAll(true);
     } else {
-      setShowText("SHow More");
+      setShowText("Show More");
       setShowAll(false);
     }
   }

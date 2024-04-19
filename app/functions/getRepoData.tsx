@@ -71,9 +71,9 @@ export async function getAllRepoData() {
     const allReposResult = await allReposData.json();
     let allRepos = allReposResult.data.user.repositories.nodes;
 
-    allRepos = allRepos.filter((repo: any) => !(pinnedReposIDs.includes(repo.id)));
+    const otherRepos = allRepos.filter((repo: any) => !(pinnedReposIDs.includes(repo.id)));
 
-    return [pinnedRepos, allRepos];
+    return [pinnedRepos, otherRepos];
   } catch (error) {
     console.error(error);
     return [[], []];
