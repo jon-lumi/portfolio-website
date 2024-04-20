@@ -1,9 +1,10 @@
 import { SiC, SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiReact, SiNextdotjs, SiGit, SiLinux, SiDocker, SiFirebase, SiTailwindcss } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa"
 
+export const description = "Hello! I'm a Computer Science student with a strong passion for all things tech-related.\n\n\nThis is a compilation of all of my past experiences, and projects that I have worked on."
 export const workExperienceData = [
     {
-        position: 'Teaching Assitant in "Algorithms and Data Structures"',
+        position: 'Teaching Assistant in "Algorithms and Data Structures"',
         company: "Constructor University",
         duration: "Feb 2024 - Present",
         description: [
@@ -12,7 +13,7 @@ export const workExperienceData = [
         ]    
     },
     {
-        position: 'Teaching Assitant in "Programming in C and C++"',
+        position: 'Teaching Assistant in "Programming in C and C++"',
         company: "Constructor University",
         duration: "Sep 2023 - Dec 2023",
         description: [
@@ -36,9 +37,9 @@ export const extracurricularActivitiesData = [
     {
         position: "Developer",
         company: "FinTech",
-        duration: "September 2023 – Present",
+        duration: "September 2023 - Present",
         description: [
-            "Contributing to open-source projects at Finos.",
+            "• Responsible for training new members of the club.",
             "• Developing a stock price prediction app using TensorFlow and scikit-learn to build the deep learning models for predicting stocks.",
         ]
     },
