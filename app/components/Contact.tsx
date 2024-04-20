@@ -1,6 +1,6 @@
 'use client';
 
-import { Button, Input, Progress, Textarea } from "@nextui-org/react";
+import { Button, Input, Progress, Textarea, popover } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 import { MdClose } from "react-icons/md";
 
@@ -121,7 +121,7 @@ export default function Contact() {
         isInvalid={(!isValidMessage && isSendClicked)}
         errorMessage={(!isValidName && isSendClicked) && "Message cannot be blank."}
       />
-
+      
       <Button
         onPress={send}
         color="primary"
@@ -133,12 +133,13 @@ export default function Contact() {
 
       {(isPopupOpen) &&
         <div
-          className="flex flex-row rounded-xl bg-secondary bg-opacity-25 w-1/2 justify-between items-center
+          className="flex flex-row rounded-xl bg-secondary bg-opacity-25 w-fit justify-between items-center gap-unit-sm
                       p-unit-sm"
         >
           <p
             className="text-text
-                        text-sm"
+                        text-sm
+                        md:text-md"
           >
             Message Sent!
           </p>
