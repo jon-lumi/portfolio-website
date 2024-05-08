@@ -1,6 +1,5 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import { socialLinks } from "../data";
 
 export default function Footer() {
@@ -27,12 +26,6 @@ export default function Footer() {
 				<li>
 					<a href={socialLinks.linkedInUrl} target="_blank">
 						<FaLinkedin className="text-primary md:size-unit-xl"/>
-					</a>
-				</li>
-
-				<li>
-					<a href={socialLinks.email} target="_blank">
-						<MdEmail className="text-primary md:size-unit-xl"/>
 					</a>
 				</li>
 			</ul>

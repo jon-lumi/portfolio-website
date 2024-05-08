@@ -1,7 +1,6 @@
 import { SiC, SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiReact, SiNextdotjs, SiGit, SiLinux, SiDocker, SiFirebase, SiTailwindcss } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa"
 
-export const description = "Hello! I'm a Computer Science student with a strong passion for all things tech-related.\n\n\nThis is a compilation of all of my past experiences, and projects that I have worked on."
 export const workExperienceData = [
     {
         position: 'Teaching Assistant in "Algorithms and Data Structures"',
