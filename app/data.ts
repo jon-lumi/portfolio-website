@@ -3,9 +3,20 @@ import { FaDatabase } from "react-icons/fa"
 
 export const workExperienceData = [
     {
+        position: 'Software Developer Intern',
+        company: "Actian",
+        duration: "June 2024 - Present",
+        description: [
+            "• Researching the behavior of various types of file systems such as NTFS, ext4, HDFS, and cloud-based file systems.",
+            "• Implementing system calls to the Actian Vector database engine in C to perform those operations, and testing using Python.",
+            "• Researching optimization strategies for memory usage of hash tables used by the Actian Vector database engine to execute queries.",
+            "• Implementing a strategy for prefix suppression in C, and testing its effects on the performance of queries using Python."
+        ]  
+    },
+    {
         position: 'Teaching Assistant in "Algorithms and Data Structures"',
         company: "Constructor University",
-        duration: "Feb 2024 - Present",
+        duration: "Feb 2024 - May 2024",
         description: [
             "• Evaluate around 100 student assignments weekly and provide helpful feedback.",
             "• Host online and in-person help sessions to answer questions students have regarding the course material.",
