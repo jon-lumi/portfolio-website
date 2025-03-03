@@ -38,7 +38,7 @@ export const extracurricularActivitiesData = [
     {
         position: "Technical Team Member",
         company: "Google Developer Student Club (GDSC)",
-        duration: "October 2023 - Present",
+        duration: "October 2023 - May 2024",
         description: [
             "• Guide participants of GDSC workshops and internships in utilizing google technologies such as TensorFlow, Flutter, Firebase, etc.",
             "• Developing an app for assisted learning using React Native, Firebase, and OpenAI.",
@@ -47,7 +47,7 @@ export const extracurricularActivitiesData = [
     {
         position: "Developer",
         company: "FinTech",
-        duration: "September 2023 - Present",
+        duration: "September 2023 - May 2024",
         description: [
             "• Responsible for training new members of the club.",
             "• Developing a stock price prediction app using TensorFlow and scikit-learn to build the deep learning models for predicting stocks.",
@@ -62,66 +62,3 @@ export const socialLinks = {
 }
 export const skillsNames = [" C", "C++", "Python", "Javascript", "TypeScript", "HTML", "CSS", "React.js", "Next.js", "Git", "Docker", "Firebase", "Tailwind", "MySQL", "HTTP"]
 export const SkillsIcons = [SiC, SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiReact, SiNextdotjs, SiGit, SiLinux, SiDocker, SiFirebase, SiTailwindcss, FaDatabase]
-
-// export const skillsData = [
-//     {
-//         icon: SiC,
-//         skillName: "C"
-//     },
-//     {
-//         icon: SiCplusplus,
-//         skillName: "C++"
-//     },
-//     {
-//         icon: SiPython,
-//         skillName: "Python"
-//     },
-//     {
-//         icon: SiJavascript,
-//         skillName: "Javascript"
-//     },
-//     {
-//         icon: SiTypescript,
-//         skillName: "Typescript"
-//     },
-//     {
-//         icon: SiReact,
-//         skillName: "React.js"
-//     },
-//     {
-//         icon: SiNextdotjs,
-//         skillName: "Next.js"
-//     },
-//     {
-//         icon: SiTailwindcss,
-//         skillName: "Tailwind CSS"
-//     },
-//     {
-//         icon: SiHtml5,
-//         skillName: "HTML"
-//     },
-//     {
-//         icon: SiCss3,
-//         skillName: "CSS"
-//     },
-//     {
-//         icon: SiDocker,
-//         skillName: "Docker"
-//     },
-//     {
-//         icon: FaDatabase,
-//         skillName: "SQL",
-//     },
-//     {
-//         icon: SiGit,
-//         skillName: "Git"
-//     },
-//     {
-//         icon: SiLinux,
-//         skillName: "Linux"
-//     },
-//     {
-//         icon: SiFirebase,
-//         skillName: "Firebase"
-//     },
-// ]
