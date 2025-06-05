@@ -1,4 +1,4 @@
-import { SiC, SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiReact, SiNextdotjs, SiGit, SiLinux, SiDocker, SiFirebase, SiTailwindcss } from "react-icons/si";
+import { SiC, SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiReact, SiNextdotjs, SiGit, SiLinux, SiDocker, SiFirebase, SiTailwindcss, SiSubversion } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa"
 
 export const workExperienceData = [
@@ -7,10 +7,11 @@ export const workExperienceData = [
         company: "Actian",
         duration: "June 2024 - Present",
         description: [
-            "• Researching the behavior of various types of file systems such as NTFS, ext4, HDFS, and cloud-based file systems.",
-            "• Implementing system calls to the Actian Vector database engine in C to perform those operations, and testing using Python.",
-            "• Researching optimization strategies for memory usage of hash tables used by the Actian Vector database engine to execute queries.",
-            "• Implementing a strategy for prefix suppression in C, and testing its effects on the performance of queries using Python."
+            "• Researched the behavior of various types of file systems such as NTFS, ext4, HDFS, and cloud-based file systems.",
+            "• Implemented system calls to the Actian Vector database engine in C to perform those operations, and testing using Python.",
+            "• Researched optimization strategies for memory usage of hash tables used by the Actian Vector database engine to execute queries.",
+            "• Implemented a strategy for prefix suppression in C, and recorded an average of 15\% performance improvement through testing with Python.",
+            "• Researched and designed an Automated DBMS Tuning system, and implemented it in the database engine using C and Python."
         ]  
     },
     {
@@ -61,4 +62,4 @@ export const socialLinks = {
     email: "jon_lumi@outlook.com"
 }
 export const skillsNames = [" C", "C++", "Python", "Javascript", "TypeScript", "HTML", "CSS", "React.js", "Next.js", "Git", "Docker", "Firebase", "Tailwind", "MySQL", "HTTP"]
-export const SkillsIcons = [SiC, SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiReact, SiNextdotjs, SiGit, SiLinux, SiDocker, SiFirebase, SiTailwindcss, FaDatabase]
+export const SkillsIcons = [SiC, SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiReact, SiNextdotjs, SiGit, SiLinux, SiDocker, SiFirebase, SiTailwindcss, FaDatabase, SiSubversion]
