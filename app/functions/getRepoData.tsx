@@ -51,7 +51,7 @@ export async function getAllRepoData() {
       body: JSON.stringify({
         query: `
           {
-            user(login: "jonn-L") {
+            user(login: "jon-lumi") {
               repositories(first: 100) {
                 totalCount
                 nodes {

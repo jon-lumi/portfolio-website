@@ -124,7 +124,7 @@ export default function About() {
       <div className="flex justify-center items-center
                        mt-unit-md mb-unit-2xl
                        md:mt-unit-lg">
-        <GitHubCalendar username="jonn-l" 
+        <GitHubCalendar username="jon-lumi" 
                         theme={contributionsCalendarTheme} 
                         weekStart={1}
                         showWeekdayLabels={true}
