@@ -11,7 +11,7 @@ export async function getAllRepoData() {
       body: JSON.stringify({
         query: `
           {
-            user(login: "jonn-L") {
+            user(login: "jon-lumi") {
               pinnedItems(first: 6) {
                 totalCount
                 edges {
